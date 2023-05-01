@@ -3,6 +3,7 @@ body{
     margin-right: 50px;
     margin-top: 7%;
     -webkit-text-stroke: 0.4 black;
+    font-size: 100%;
 }
 
 h1{
@@ -154,18 +155,3 @@ footer{
 
 
 /*ANIMACION CON EL SCROLL*/
-
-p {
-    font-size: 1em; /* Tamaño de fuente relativo */
-    line-height: 1.5em; /* Altura de línea relativa */
-    margin-bottom: 1em; /* Margen inferior relativo */
-  }
-  
-  /* Estilos para pantallas pequeñas */
-  @media (max-width: 480px) {
-    p {
-      font-size: 0.8em; /* Tamaño de fuente más pequeño */
-      line-height: 1.2em; /* Altura de línea más pequeña */
-      margin-bottom: 0.5em; /* Margen inferior más pequeño */
-    }
-  }
