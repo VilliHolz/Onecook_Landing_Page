@@ -208,8 +208,8 @@ footer{
 }
 
 .contenedor-insignias{
-    text-align: left;
-    margin-top: 20px;
+    display: flex;
+    margin-top: 30px;
 }
 
 .abajo{
@@ -218,6 +218,15 @@ footer{
 
 .derecha{
     margin-left: px;
+}
+
+.texto-insignia{
+    margin-left: 15px;
+    text-align: left;
+}
+
+.arriba{
+    margin-top: -40px;
 }
 
 /*ANIMACION CON EL SCROLL*/
