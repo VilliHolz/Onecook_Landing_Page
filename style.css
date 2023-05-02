@@ -4,6 +4,59 @@ body{
     margin-top: 7%;
     -webkit-text-stroke: 0.4 black;
     font-size: 100%;
+    margin-top: 8%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#one_logo{
+    margin-top: 3%;
+    color: black;
+    font-size: 25px;
+}
+
+.cook_logo{
+    margin-top: 3%;
+    color: orange;
+    font-size: 25px;
+    margin-left: 0px;
+    background-color: white;
+    position: relative;
+}
+
+
+
+.cook_logo::after{
+    content: "";
+    background: white;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    border-left: 2px solid black;
+    animation: maquina_de_escribir 1s infinite alternate steps(5);
+}
+
+@keyframes maquina_de_escribir {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0%;
+    }
+}
+
+.logo {
+    display: flex;
+  }
+  
+  #one_logo, .cook_logo {
+    display: inline;
+  }
+
+#one_logo{
+    margin-top: 3%;
+    color: black;
+    font-size: 25px;
 }
 
 h1{
@@ -14,8 +67,9 @@ h2{
     font-weight: bold;
 }
 
+
 #logo_sombrero{
-    width: 350px;
+    width: 500px;
     margin-top: -9%;
 }
 
@@ -133,6 +187,8 @@ nav li{
 
 nav{
     position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 header{
