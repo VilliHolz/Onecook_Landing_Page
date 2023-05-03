@@ -10,23 +10,44 @@
     <script src="script.js"></script>
 </head>
   <body>
-    <header class=" navbar navbar-light bg-dark fixed-top">
-        <nav class="mt-3 ronded-pill">
-          <ul class="nav justify-content-center">
-            <img src="./Assets/img/logo_blanco.png" alt="Descripción de la imagen" class="img-fluid" id="logo">
-              <li id="margin-left" class="nav-item margenes-nav"><a href="#" class="nav-link text-light">Inicio</a></li>
-              <li class="nav-item"><a href="#usuarios" class="nav-link text-light">Usuarios</a></li>
-              <li class="nav-item"><a href="#servicio" class="nav-link text-light">Servicios</a></li>
-              <li class="nav-item"><a href="#" class="nav-link text-light">Contacto</a></li>
-              <li class="nav-item"><a href="#" class="nav-link text-light">Contacto</a></li>
-          </ul>
+    <div class="conteiner text-center">
+      <header class=" row navbar navbar-light bg-dark fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 text-center">
+                <a class="navbar-brand" href="#">
+                  <img src="./Assets/img/logo_blanco.png" alt="Logo" id="logo_blanco">
+                </a>
+              </div>
+              <div class="col-md-6 text-center">
+                <ul class="navbar-nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 5</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </nav>
     </header>  
     <main class="container py-5 text-center text" >
       <!--Primera parte-->  
       <div class="conteiner">
         <div class="row margin-top-bottom text-center receta_al_mundo">
-          <div class="col-md-6" style="margin-top:70px;">
+          <div class="col-lg-6 col-md-12">
               <h1>Comparti tu receta al mundo en menos de <br> 60 segundos</h1>
               <p>¿Deseas conocer nuevas recetas? 
               <br> ¿Sos chef y te gustaria demostrar tus habilidades? 
@@ -36,7 +57,7 @@
               <button class="btn btn-orange">Android</button>
               <button class="btn btn-dark">IOS</button>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
               <div class="container">
                 <img src="./Assets/img/img app/onecook_carga.png" alt="" id="logo_sombrero">
               </div>
@@ -169,5 +190,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
             integrity="sha384-J7jwpL0+WCWtf3qKvBZzp5X5sh5xTNWJ03yRvCKKkCYp7BwMkM8Vyo1Fjlgt1hX7"
             crossorigin="anonymous"></script>
+    </div>
   </body>
 </html>

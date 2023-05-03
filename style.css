@@ -8,6 +8,10 @@ body{
 
 }
 
+#logo_blanco{
+    width: 160px;
+}
+
 #one_logo{
     margin-top: 3%;
     color: black;
@@ -189,7 +193,7 @@ nav{
 }
 
 header{
-    height: 50px;
+    height: 60px;
 }
 
 footer{
