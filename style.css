@@ -293,4 +293,23 @@ footer{
     transform-origin: center;
 }
 
-  
+
+/*MEDIA QUERYS*/
+@media screen and (max-width:1124px) {
+    body{
+        background-color: blue;
+    }
+    .logo{
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    body{
+        background-color: red;
+        margin-left: 40%;
+    }
+    .logo{
+        margin-right: 200px;
+    }
+}
