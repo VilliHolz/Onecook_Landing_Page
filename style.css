@@ -11,9 +11,17 @@ body{
 #logo_blanco{
     width: 100px;
     margin-left: 50%;
-
 }
 
+  
+@keyframes girar {
+    0% {
+      transform: rotateX(0deg); /* Estado inicial de la animación */
+    }
+    100% {
+      transform: rotateX(360deg); /* Estado final de la animación */
+    }
+  }
 
 #one_logo{
     margin-top: 3%;
@@ -52,7 +60,7 @@ body{
 .logo {
     display: flex;
   }
-  
+
   #one_logo, .cook_logo {
     display: inline;
   }
@@ -279,3 +287,4 @@ footer{
     transform-origin: center;
 }
 
+  
