@@ -307,7 +307,6 @@ footer{
 @media screen and (max-width:992px) {
     body{
         background-color: red;
-        margin-left: 40%;
     }
     .logo{
         margin-right: 200px;
