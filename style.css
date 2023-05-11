@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
-}
+  }
+  
 body{
     margin-left: 50px;
     margin-right: 50px;
@@ -44,24 +45,7 @@ body{
     position: relative;
 }
 
-.cook_logo::after{
-    content: "";
-    background: white;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    border-left: 2px solid black;
-    animation: maquina_de_escribir 1s infinite alternate steps(5);
-}
 
-@keyframes maquina_de_escribir {
-    from{
-        width: 100%;
-    }
-    to{
-        width: 0%;
-    }
-}
 
 .logo {
     display: flex;
