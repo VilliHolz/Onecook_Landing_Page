@@ -295,3 +295,9 @@ footer{
 
 
 /*MEDIA QUERYS*/
+
+@media only screen and (max-width: 992px) {
+    #logo_sombrero{
+        margin-top: 100px;
+    }
+}
