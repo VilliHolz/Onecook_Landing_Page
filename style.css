@@ -273,11 +273,15 @@ footer{
     }
 }
 
+.insignias{
+    margin-top: -600px;
+    margin-left: 570px;
+}
+
 .giro-animacion {
     animation: rotate 3s  infinite;
     transform-origin: center;
 }
-
 
 /*MEDIA QUERYS*/
 
@@ -290,5 +294,74 @@ footer{
         text-align: center;
         align-items: center;
         overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .contenedor-insignias{
+        margin-top: -20px;
+    }
+    #quepodemos{
+        margin-top: -20px;
+    }
+
+    .contenedor-insignias h4, p{
+        margin-left: -80px;
+        
+    }
+    .contenedor-insignias h4{
+        margin-top: 40px;
+        
+    }
+    .circle{
+        margin-left: -106px;
+        margin-top: 30px;
+    }
+    .front{
+        margin-left: -90px;
+        margin-top: 30px;
+    }
+    .back{
+        margin-left: -100px;
+        margin-top: 35px;
+    }
+    .image{
+        margin-left: -90px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    h1{
+        margin-left: -60px;
+    }
+    .android{
+        margin-left: -60px;
+    }
+}
+
+
+@media only screen and (max-width: 1064px) {
+    #abajo{
+        margin-left: 280px;
+    }
+    #logo_sombrero{
+        margin-top: 100px;   
+        margin-left: 210px;
+    }
+    #perfil{
+        margin-left: 210px;
+    }
+    #section_2{
+        margin-left: -300px;
+    }
+    .img-segunda{
+        margin-top: 500px;
+    }
+}
+
+
+@media only screen and (max-width: 993px) {
+    .logo_sombrero{
+        margin-top:     ;
     }
 }
