@@ -9,6 +9,7 @@ body{
     -webkit-text-stroke: 0.4 black;
     font-size: 100%;
     margin-top: 8%;
+    overflow-x: hidden;
 }
 
 #logo_blanco{
@@ -283,5 +284,11 @@ footer{
 @media only screen and (max-width: 992px) {
     #logo_sombrero{
         margin-top: 100px;
+    }
+    body{
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        overflow-x: hidden;
     }
 }
