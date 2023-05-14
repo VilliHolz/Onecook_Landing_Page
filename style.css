@@ -295,6 +295,24 @@ footer{
         align-items: center;
         overflow-x: hidden;
     }
+    #p-deseas{
+        margin-left: -400px;
+    }
+    #titulo-comparti{
+        margin-left: -400px;
+    }
+    #android{
+        margin-left: -390px;
+    }
+    #imagen-onecook{
+        margin-left: -40px;
+    }
+    #section_2{
+        margin-top: -1200px;
+    }
+    #onecook-perfil{
+        margin-top: 400px;
+    }
 }
 @media only screen and (max-width: 1199px) {
     .contenedor-insignias{
